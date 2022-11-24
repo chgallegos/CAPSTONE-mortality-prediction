@@ -1,11 +1,8 @@
-# CAPSTONE-happiness-mortality-alcohol
+# CAPSTONE-mortality rate prediction
 
 ## Overview
 
-This project will be based on an analysis of the following sets of data:
-
-- **https://www.kaggle.com/datasets/unsdsn/world-happiness**
-- **https://www.kaggle.com/datasets/utkarshxy/who-worldhealth-statistics-2020-complete**
+This analysis will be based on predictions of mortality rate and what factors are involved.
 
 ----
 ## Results

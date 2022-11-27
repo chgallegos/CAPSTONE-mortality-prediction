@@ -1,11 +1,15 @@
 # Technologies and Resources Utilized
 _______________________
 
+
+
 ## Data Analysis/Review/Cleanup
 _______________________________
 
 -PANDAS
 For this segment of the project we felt that the most useful tool to implement here would be PANDAS using Python as it is a natural fit for our data as it is already in a csv format and can be moved into a PANDAS dataframe with ease. This will give us the best path for data review, cleaning and analysis.
+
+
 
 ## Database Storage
 ___________________
@@ -13,10 +17,13 @@ ___________________
 -Postgress SQL
 Our datasets are very structured and have many points with which we can join data tables. This is the reason we chose to use Postgress. We need a structured database with the ease of control to merge or create calculated fields. 
 
+
+
 ## Machine Learning
 ___________________
 
 TBD: currently being reviewed by the team. This field will be updated no later than 11/30/2022
+
 
 
 ## Dashboard

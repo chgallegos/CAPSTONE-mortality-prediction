@@ -32,9 +32,9 @@ TBD: currently being reviewed by the team. This field will be updated no later t
 ## Dashboard
 ____________
 
-- HTML
-- JavaScript
 - Tableau
+  - JavaScript
+  - HTML
 
 Currently we are looking at a webpage to house our dashboard. Tableau would be the tool to create the actual Dashboard based information charts. This would be embedded into an HTML page and from there we will use JavaScript and event listeners to give the page user input fields that will allow them to change the visualizations based on the criteria they have selected.
 

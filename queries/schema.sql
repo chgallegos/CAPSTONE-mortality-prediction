@@ -49,6 +49,3 @@ CREATE TABLE health_data (
 );
 
 SELECT * FROM health_data;
-
-
-

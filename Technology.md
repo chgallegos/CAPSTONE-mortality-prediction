@@ -18,6 +18,7 @@ For this segment of the project we felt that the most useful tool to implement h
 ___________________
 
 - Postgress SQL
+
 Our datasets are very structured and have many points with which we can join data tables. This is the reason we chose to use Postgress. We need a structured database with the ease of control to merge or create calculated fields. 
 
 
@@ -37,6 +38,7 @@ ____________
 - Tableau
   - JavaScript
   - HTML
+
 
 Currently we are looking at a webpage to house our dashboard. Tableau would be the tool to create the actual Dashboard based information charts. This would be embedded into an HTML page and from there we will use JavaScript and event listeners to give the page user input fields that will allow them to change the visualizations based on the criteria they have selected.
 

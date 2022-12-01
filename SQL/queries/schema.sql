@@ -1,0 +1,51 @@
+-- Creating tables for Capstone_DB
+CREATE TABLE cause_of_death (
+     ID SERIAL PRIMARY KEY,
+	 Code VARCHAR(3) NOT NULL,
+     Entity VARCHAR(40) NOT NULL,
+	 Year INT NOT NULL
+);
+
+SELECT * FROM cause_of_death;
+
+CREATE TABLE cod_under5 (
+     ID SERIAL PRIMARY KEY,
+	 Code VARCHAR(3) NOT NULL,
+     Entity VARCHAR(40) NOT NULL,
+	 Year INT NOT NULL
+);
+
+SELECT * FROM cod_under5;
+
+CREATE TABLE cod_5to14 (
+     ID SERIAL PRIMARY KEY,
+	 Code VARCHAR(3) NOT NULL,
+     Entity VARCHAR(40) NOT NULL,
+	 Year INT NOT NULL
+);
+
+SELECT * FROM cod_5to14;
+
+CREATE TABLE cod_15to49 (
+     ID SERIAL PRIMARY KEY,
+	 Code VARCHAR(3) NOT NULL,
+     Entity VARCHAR(40) NOT NULL,
+	 Year INT NOT NULL
+);
+
+SELECT * FROM cod_15to49;
+
+CREATE TABLE cod_50to69 (
+	 ID SERIAL PRIMARY KEY,
+	 Code VARCHAR(3) NOT NULL,
+     Entity VARCHAR(40) NOT NULL,
+	 Year INT NOT NULL
+);
+
+SELECT * FROM cod_50to69;
+
+CREATE TABLE health_data (
+     ID SERIAL PRIMARY KEY
+);
+
+SELECT * FROM health_data;

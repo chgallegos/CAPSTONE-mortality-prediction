@@ -27,7 +27,7 @@ Our datasets are very structured and have many points with which we can join dat
 ## Machine Learning
 ___________________
 
-TBD: currently being reviewed by the team. This field will be updated no later than 11/30/2022
+We have decided that a Linear Regression model would be ideal for the prediction we are trying to achieve with our health data.
 
 
 
@@ -36,9 +36,9 @@ TBD: currently being reviewed by the team. This field will be updated no later t
 ____________
 
 - Tableau
-  - JavaScript
   - HTML
+  - JavaScript
 
 
-Currently we are looking at a webpage to house our dashboard. Tableau would be the tool to create the actual Dashboard based information charts. This would be embedded into an HTML page and from there we will use JavaScript and event listeners to give the page user input fields that will allow them to change the visualizations based on the criteria they have selected.
+We plan on building dynamic charts and plots with the data from our model within Tableau. We are looking to then embed those charts into a webpage using HTML and Javascript.
 

@@ -6,7 +6,9 @@ _______________________
 ## Data Analysis / Review / Cleanup
 ___________________________________
 
+
 - PANDAS
+
 For this segment of the project we felt that the most useful tool to implement here would be PANDAS using Python as it is a natural fit for our data as it is already in a csv format and can be moved into a PANDAS dataframe with ease. This will give us the best path for data review, cleaning and analysis.
 
 

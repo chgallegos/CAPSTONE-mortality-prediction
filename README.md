@@ -9,5 +9,24 @@ Given the influence of our most recent global pandemic, the mass scale effects t
 ### Cadence 
 The team determined to meet once a week as a group, the team will also meet with TA once a week to go over progress of the project. added to this, the team is meetind during and after class twice per week.
 
-Meettings will be done via Zoom, and communication will be maintained via Slack.
+Meetings will be done via Zoom, and communication will be maintained via Slack.
+
+----
+## Data Exploration
+
+As the team was presented with a csv file containing causes of death by organized by country. This csv was split into 8 different files that split the data by age buckets. 
+
+(screenshot)
+
+From here, the files were imported into a SQL database for data cleaning and joining tables.
+
+(screenshot)
+(screenshot)
+
+Once the database was ready and tables were joined on SQL, the data was imported into a jupyter notebook in order to be manipulated and subsequently analyzed with the use of Pandas.
+
+----
+## Analysis
+
+The analysis of the data began with 
 

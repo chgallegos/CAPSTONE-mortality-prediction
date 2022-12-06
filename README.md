@@ -34,6 +34,6 @@ As it was previously determined, the analysis will consist on a linear regressio
 
 ![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/accuracy.png)
 
-At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analysing the linear relations of each column to the Y variable.
+At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analyzing the linear relations of each column to the Y variable.
 
 ![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/exploratory_graph.png)

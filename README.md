@@ -16,12 +16,14 @@ Meetings will be done via Zoom, and communication will be maintained via Slack.
 
 As the team was presented with a csv file containing causes of death by organized by country. This csv was split into 8 different files that split the data by age buckets. 
 
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/raw_data.png)
 (screenshot)
 
 From here, the files were imported into a SQL database for data cleaning and joining tables.
 
-(screenshot)
-(screenshot)
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/table_creation.png)
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/table_join.png)
 
 Once the database was ready and tables were joined on SQL, the data was imported into a jupyter notebook in order to be manipulated and subsequently analyzed with the use of Pandas.
 

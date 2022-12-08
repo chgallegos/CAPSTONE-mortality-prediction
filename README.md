@@ -41,6 +41,6 @@ At the moment, the model is under development and providing an accuracy of 29%. 
 ----
 ## Presentation
 
-The presentation will be hosted on a google share presentation, at the moment it includes a partial visualization of the Tableau dashboard as well as a the narrative portion of the presentation. The presentation can be found in the following link:
+The presentation will be hosted on a google slides presentation, at the moment it includes a partial visualization of the Tableau dashboard as well as a the narrative portion of the presentation. The presentation can be found in the following link:
 
 https://docs.google.com/presentation/d/17nd_XMcD16jDbNBS2rAcXmxoUHcjnSs_r924wRWDH7s/edit#slide=id.g1b3517300bd_0_0

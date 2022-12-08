@@ -37,3 +37,10 @@ As it was previously determined, the analysis will consist on a linear regressio
 At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analyzing the linear relations of each column to the Y variable.
 
 ![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/exploratory_graph.png)
+
+----
+## Presentation
+
+The presentation will be hosted on a google share presentation, at the moment it includes a partial visualization of the Tableau dashboard as well as a the narrative portion of the presentation. The presentation can be found in the following link:
+
+https://docs.google.com/presentation/d/17nd_XMcD16jDbNBS2rAcXmxoUHcjnSs_r924wRWDH7s/edit#slide=id.g1b3517300bd_0_0

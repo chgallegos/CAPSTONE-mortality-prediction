@@ -9,5 +9,31 @@ Given the influence of our most recent global pandemic, the mass scale effects t
 ### Cadence 
 The team determined to meet once a week as a group, the team will also meet with TA once a week to go over progress of the project. added to this, the team is meetind during and after class twice per week.
 
-Meettings will be done via Zoom, and communication will be maintained via Slack.
+Meetings will be done via Zoom, and communication will be maintained via Slack.
 
+----
+## Data Exploration
+
+As the team was presented with a csv file containing causes of death by organized by country. This csv was split into 8 different files that split the data by age buckets. 
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/raw_data.png)
+(screenshot)
+
+From here, the files were imported into a SQL database for data cleaning and joining tables.
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/table_creation.png)
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/table_join.png)
+
+Once the database was ready and tables were joined on SQL, the data was imported into a jupyter notebook in order to be manipulated and subsequently analyzed with the use of Pandas.
+
+----
+## Analysis
+
+As it was previously determined, the analysis will consist on a linear regression machine learning model which will allow to predict the major causes of death for the next years, at the moment the amount of prediction years is still under assessment. 
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/accuracy.png)
+
+At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analyzing the linear relations of each column to the Y variable.
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/exploratory_graph.png)

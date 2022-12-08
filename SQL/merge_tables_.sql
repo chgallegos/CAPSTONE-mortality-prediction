@@ -10,10 +10,6 @@ Into comb_age_groups
 from cod_under5;
 
 -- Change the column names so that when we transpose the data we will have a clean year to reference.
-select * 
-Into comb_age_groups
-from cod_under5;
-
 CREATE TABLE country_pop as
 SELECT 
 "Country Code",

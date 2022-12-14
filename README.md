@@ -38,9 +38,14 @@ The data was split into training and testing using an 80/20 ratio
 ![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/train_test_split.png)
 
 
+#### Accuracy score
+
 At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analyzing the linear relations of each column to the Y variable.
 
-![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/exploratory_graph.png)
+
+![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/accuracy_score_and_confusion_matrix.png)
+
+
 
 #### Machine learning code development
 

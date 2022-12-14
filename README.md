@@ -20,7 +20,7 @@ As the team was presented with a csv file containing causes death by organized b
 
 Initially, two Machine Learning models were considered, a linear regression and a logistic regression. The linear regression was attempted yet the lack of control of the input variables made the team decide to move into a logistic regression, therefore giving the model the ability to propose whether the rates of mortality would increase or decrease in the following years.
 
-#### Pre-Processing
+### Pre-Processing
 
 The data was initially loaded in a SQL database for data cleaning and joining tables.
 
@@ -31,14 +31,14 @@ The data was initially loaded in a SQL database for data cleaning and joining ta
 Once the database was ready and tables were joined on SQL, the data was imported into a jupyter notebook in order to be manipulated and subsequently cleaned with the use of Pandas.
 
 
-#### Train and test split
+### Train and test split
 
 The data was split into training and testing using an 80/20 ratio
 
 ![Screenshot](https://github.com/chgallegos/CAPSTONE-mortality-prediction/blob/main/resources/screenshots/train_test_split.png)
 
 
-#### Accuracy score
+### Accuracy score
 
 At the moment, the model is under development and providing an accuracy of 29%. Keeping in mind that this is a very initial state for the model, this will be revised by analyzing the linear relations of each column to the Y variable.
 
@@ -47,7 +47,7 @@ At the moment, the model is under development and providing an accuracy of 29%. 
 
 
 
-#### Machine learning code development
+### Machine learning code development
 
 Since the past deliverable, column modifications were done to the code in order to increase the accuracy score as well as including yearly population data for each country, thus allowing for a calculation of mortality rate based on population
 

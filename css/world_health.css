@@ -1,0 +1,20 @@
+body{
+
+    color: rgb(0, 7, 10);
+}
+.jumbotron{
+    background-image: url("../resources/screenshots/heart_health.jpg);
+    background-size: 100% 100%;
+    background-blend-mode:darken;
+    text-align: Center;
+}
+
+.jumbotron h1{
+  color: black;
+  font-family: "Bauhaus 93";
+}
+
+#sample-metadata>h6{font-weight: bolder}
+body{
+    background-color: aliceblue;)
+}

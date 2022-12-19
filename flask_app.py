@@ -10,10 +10,10 @@ app.config['DEBUG'] = True
 
 #set our routes here
 @app.route('/')
-<<<<<<< HEAD
+
 def index():
-    return render_template('main_page.html')
-=======
-def hello_world():
-    return 'Welcome to Mortality Prediction Page...testing this to see if it updates'
->>>>>>> 7bdf6c5c0eef136d184075c0c55c1dba8fb39c6f
+    return render_template('templates/main_page.html')
+
+# def hello_world():
+#     return 'Welcome to Mortality Prediction Page...testing this to see if it updates'
+# >>>>>>> 7bdf6c5c0eef136d184075c0c55c1dba8fb39c6f

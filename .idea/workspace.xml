@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cca9781c-4385-4a8d-ad7e-037ce69cd36b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/world_health.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/world_health.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1670901843691" duration="609000" />
       <workItem from="1671209061455" duration="10399000" />
       <workItem from="1671403910388" duration="1553000" />
-      <workItem from="1671407098527" duration="44000" />
+      <workItem from="1671407098527" duration="1087000" />
     </task>
     <servers />
   </component>

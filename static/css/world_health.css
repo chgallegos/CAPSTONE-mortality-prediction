@@ -1,0 +1,36 @@
+body{
+
+    color: rgb(0, 6, 10);
+    background-color: black;
+}
+.jumbotron1{
+
+    background-image: url('static/images/generic_health.jpg');
+    background-size: 100% 100%;
+    background-blend-mode:darken;
+    text-align: Center;
+    justify-content: center;
+    margin: 40px 40px 40px 40px ;
+    display: flex;
+}
+
+.row {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #181515;
+  } 
+
+
+.jumbotron h1{
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+}
+
+    
+
+#sample-metadata>h6{font-weight: bolder}
+body{
+    background-color: #38333364;)
+}

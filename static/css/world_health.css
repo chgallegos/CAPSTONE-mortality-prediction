@@ -127,7 +127,13 @@ html {
     display: flex;
     position:relative;
     top: 35%;
-    bottom: 35%;
-    margin-left: 50 px;
+    bottom: 20%;
+    justify-content: center;
+  }
+
+  #tableau{
+    display: flex;
+    position:relative;
+    top: 35px;
     justify-content: center;
   }

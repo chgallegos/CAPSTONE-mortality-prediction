@@ -30,7 +30,7 @@ ul {
   }
   
   li {
-    float: left;
+    float:none;
   }
   
   li a {
@@ -71,7 +71,7 @@ iframe{
 }
 
 .menu_items{
-    background-color: rgb(75, 1, 1);
+    background-color: #4b0101;
     padding-top: 30px;
     
 
@@ -95,3 +95,8 @@ html {
     margin-top: 100%;
     padding-bottom: 25%;
    } 
+
+.content{
+    background-color: #4b0101;
+    padding-top: 30px;
+}

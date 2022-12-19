@@ -21,6 +21,33 @@ body{
     justify-content: center;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0px 40px 0px 40px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #000000;
+  }
 
 iframe{
     margin-right: 380px;
@@ -46,6 +73,7 @@ iframe{
 .menu_items{
     background-color: rgb(75, 1, 1);
     padding-top: 30px;
+    
 
 }    
 
@@ -53,3 +81,17 @@ iframe{
 body{
     background-color: #38333364;)
 }
+
+html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   #down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+   } 

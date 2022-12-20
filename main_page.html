@@ -10,58 +10,71 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="static/css/world_health.css">
+      />
+    <link rel="stylesheet" href="static/css/world_health.css"/>
 </head>
 
 <body>
-<!-- Jumbotron -->
-<div style="background-color:black"> 
-    <div class="jumbotron1">
-        <div class="p-5 text-center bg-image rounded-3" style=" background-image: url('static/images/generic_health.jpg'); width: 950px; height: 500px;">
-                <div class="mask" style="background-color: rgba(12, 10, 9, 0.721);">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                        <div class="text-white">
-                        <h1 class="mb-3">Worldwide Mortality and Disease Analysis</h1>
-                        <div>    
-                            <iframe title='World population' src='https://www.theworldcounts.com/embeds/counters/8?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: none' height='100' width='300' margin-right: 3em></iframe>
-                            <iframe title='Number of deaths' src='https://www.theworldcounts.com/embeds/counters/126?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: none' height='100' width='300' margin-right: 3em></iframe>    
-                        </div>    
+    <!-- Jumbotron -->
+    <div id="jumbotron" style="background-color:black">
+        <div class="container1">
+            <iframe id= 'population' title='World population' src='https://www.theworldcounts.com/embeds/counters/8?background_color=firebrick&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: round' height='80px' width='300'></iframe>
+            <iframe id= 'deaths' title='Number of deaths' src='https://www.theworldcounts.com/embeds/counters/126?background_color=firebrick&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: round' height='80px' width='300'></iframe>    
+        </div> 
+                <div class="jumbotron1">
+                    <div class="p-5 text-center bg-image rounded-3" style=" background-image: url('static/images/generic_health.jpg'); width: 950px; height: 500px;">
+                            <div class="mask" style="background-color: rgba(12, 10, 9, 0.424);">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div class="text-white">
+                                    <h1 class="mb-3">Worldwide Mortality and Disease Analysis</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            
+    </div>      
+    <!-- Jumbotron -->
+
+
+    <div class="menu_items">
+        <ul style="background-color: #4b0101;">
+            <li><a class="active" href="#home">Home</a></li>
+            <!-- <li><a href="#ml">Machine Learning Model</a></li> -->
+            <li><a class="not_active" href="#presentation">Presentation</a></li>
+            <li><a class="not_active" href="#tableau">Tableau Dashboard</a></li>
+        </ul>
+    </div>
+    <!-- content -->
+    <div class="content">
+        <div id="ml">
+            <!-- <div class="container">   
+                <div class="row">
+                    <div class="col-md-12 jumbotron text-center">
+                    <h1>Please Select a Country:"drop down to be added here"</h1>
+                </div>
+            </div> -->
+        </div> 
+
+        <div id="presentation">    
+            <iframe id='slides' src="https://docs.google.com/presentation/d/e/2PACX-1vToisvbcKbiXdxOX6uUVvw8i2NjVStLNqahFe2lk_xJjZswpCM1RW15JcrjQx7pl-WxWTg7P3xYzijm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    
+        <div id="tableau">
+                <div class="container">   
+                        <div class="col-md-12 jumbotron text-center">
+                            <div class='tableauPlaceholder' id='viz1671501517517' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;capstone1_16714748844660&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='capstone1_16714748844660&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ca&#47;capstone1_16714748844660&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1671501517517');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
-</div>      
-<!-- Jumbotron -->
+</body>
+<!-- scroll back up button -->
 
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+<i class="fas fa-arrow-up">Back to top</i> 
+</button>
 
-
-<div class="container">   
-    <div class="row">
-        <div class="col-md-12 jumbotron text-center">
-          <h1>Please Select a Country:"drop down to be added here"</h1>
-        </div>
-  </div>
-
-  <div class="container">   
-    <div class="row">
-        <div class="col-md-12 jumbotron text-center">
-          <h1>place content including project descriptors here</h1>
-        </div>
-  </div>
-  
-  <div class="container">   
-    <div class="row">
-        <div class="col-md-12 jumbotron text-center">
-          <h1>Slides and selection here</h1>
-        </div>
-  </div>
-  <div class="container">   
-    <div class="row">
-        <div class="col-md-12 jumbotron text-center">
-          <h1>tableau and outputs here</h1>
-        </div>
-  </div>
-
+<script src="static/js/app.js"></script>
 </html>

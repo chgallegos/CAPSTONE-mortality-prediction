@@ -157,7 +157,10 @@ html {
     bottom: 20%;
     justify-content: center;
   }
-
+.container2{
+    width:60%;
+    margin:auto;
+}
   #tableau{
     display: flex;
     position:relative;

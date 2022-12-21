@@ -58,3 +58,14 @@ Since the past deliverable, column modifications were done to the code in order 
 The presentation will be hosted on a google slides presentation, at the moment it includes a partial visualization of the Tableau dashboard as well as a the narrative portion of the presentation. The presentation can be found in the following link:
 
 https://docs.google.com/presentation/d/17nd_XMcD16jDbNBS2rAcXmxoUHcjnSs_r924wRWDH7s/edit#slide=id.g1b3517300bd_0_0
+
+
+## Website
+
+https://capstone-mortality-bootcamp.herokuapp.com/
+
+## Tableau Dashboard
+
+https://public.tableau.com/views/capstone1_16714748844660/Dashboard1?:language=en-US&:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=y&publish=yes&:origin=viz_share_link
+
+

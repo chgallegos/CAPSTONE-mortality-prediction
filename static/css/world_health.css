@@ -74,7 +74,7 @@ ul {
   
   li a:hover:not(.active) {
     background-color: #111;
-    border-radius: 25px;
+    border-radius: 15px;
   }
   
   .active {
@@ -140,12 +140,12 @@ html {
 }
 
 .active{
-  border-radius: 5px;
+  border-radius: 15px;
 
 }
 
 .not_active{
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #111;
 
 }

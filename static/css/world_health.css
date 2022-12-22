@@ -74,7 +74,7 @@ ul {
   
   li a:hover:not(.active) {
     background-color: #111;
-    border-radius: 5px;
+    border-radius: 25px;
   }
   
   .active {
@@ -104,7 +104,7 @@ ul {
 
 #sample-metadata>h6{font-weight: bolder}
 body{
-    background-color: #38333364;)
+    background-color: #38333364;
 }
 
 html {
